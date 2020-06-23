@@ -1,0 +1,21 @@
+{
+  "name": "inicio-component",
+  "version": "0.0.1",
+  "description": "Webcomponent inicio-component following open-wc recommendations",
+  "author": "Alejandro Soto",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "dile-pages": "^1.1.2",
+    "dile-tabs": "^2.1.0",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.23.0"
+  }
+}
